@@ -1,0 +1,32 @@
+#authenticationView {
+    background: #ffffff;
+}
+
+#authenticationView QLabel#heading {
+    color: #1769aa;
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 6px;
+}
+
+#authenticationView QPushButton#primaryButton {
+    background: #1769aa;
+}
+
+#authenticationView QPushButton#primaryButton:hover {
+    background: #125a92;
+}
+
+#authenticationView QPushButton#secondaryButton {
+    background: #eef5fc;
+    border: 1px solid #a9c8e5;
+    color: #1769aa;
+}
+
+#authenticationView QPushButton#secondaryButton:hover {
+    background: #dcecf9;
+}
+
+#authenticationView QLineEdit:focus {
+    border: 2px solid #1769aa;
+}

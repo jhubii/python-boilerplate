@@ -1,0 +1,16 @@
+#studentView QPushButton#primaryButton {
+    background: #1976d2;
+}
+
+#studentView QPushButton#primaryButton:hover {
+    background: #1565c0;
+}
+
+#studentView QLineEdit:focus {
+    border: 2px solid #1976d2;
+}
+
+#studentView QHeaderView::section {
+    background: #e3f2fd;
+    color: #0d47a1;
+}
